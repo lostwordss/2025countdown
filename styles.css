@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply Montserrat font */
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;  /* Dark background for contrast */
+    color: white;
+}
+
+/* Container for Countdown */
+.countdown-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 10; /* Ensures the countdown is on top of fireworks */
+}
+
+/* Countdown Header */
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+/* Countdown Timer Boxes */
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.time-box {
+    margin: 0 20px;
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.time-box span {
+    display: block;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .time-box {
+        margin: 10px;
+        font-size: 2.5em;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+}
