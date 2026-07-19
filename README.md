@@ -1,4 +1,11 @@
-Heya,
+# 2025Countdown
 
-If you've encountered this project now the actual file is gone. The original website was a ChatGPT coded site, which lacked the features required (Such as Sparkle & Fire Works). Next year, I'll be in college so this project will return under a greater depth of detail, with
-stuff such as mini-games and more! So therefore, thanks for counting with us!
+Heya!
+
+If you've stumbled across this project, welcome! **2025Countdown** was an experimental website I created to explore what was possible with AI-assisted development. The original site was largely coded with the help of ChatGPT and served as an early experiment in building something interactive from scratch.
+
+While the original version is no longer available, it was only the beginning. The project was originally intended to grow with features such as sparkles, fireworks, mini-games, and much more.
+
+Now, looking back, **2025Countdown** represents one of my earlier experiments with AI, coding, and creative web development. Although the countdown has ended, the project remains a snapshot of where the journey began.
+
+Thanks for counting down with us! 🎉
